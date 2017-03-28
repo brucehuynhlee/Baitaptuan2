@@ -71,7 +71,8 @@
 			</div>
 
 			<div class="form-group">
-				<button class="btn btn-primary" type="submit">Update</button>
+				<button class="btn btn-info" type="submit">Update</button>
+				<a class="btn btn-primary" href="/Baitaptuan2/Login">Cancel</a>
 			</div>
 		</form>
 	</div>

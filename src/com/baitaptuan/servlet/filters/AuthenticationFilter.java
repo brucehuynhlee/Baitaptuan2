@@ -46,7 +46,7 @@ public class AuthenticationFilter implements Filter {
 		HttpServletResponse res = (HttpServletResponse) response;
 		HttpSession session = req.getSession(false);
 		String requestUri = req.getRequestURI();
-
+		System.out.println("context path " + request.getServletContext().getRealPath("/"));
 		if ((session == null || session.getAttribute("id") == null)&& !(requestUri.endsWith("register.jsp") || requestUri.endsWith("login.jsp") || requestUri.endsWith("css")
 				|| requestUri.endsWith("js") || requestUri.endsWith("Register") || requestUri.endsWith("Login"))) {
 			System.out.println(requestUri);
