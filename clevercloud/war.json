@@ -3,11 +3,6 @@
       "container": "TOMCAT8",
       "war": [
          {
-            "file": "target/my-app-1.0-SNAPSHOT.war",
-            "context": "/app1",
-            "checkMe": "/app1/ping"
-         },
-         {
             "file": "Baitaptuan2.war",
          }
       ]
