@@ -3,7 +3,8 @@
       "container": "TOMCAT8",
       "war": [
          {
-            "file": "/Baitaptuan2.war",
+            "file": "target/Baitaptuan2.war",
+            "context": "/Baitaptuan2"
          }
       ]
    }
